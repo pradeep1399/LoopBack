@@ -1,0 +1,12 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "tsc --target ES5 --experimentalDecorators app.ts && node app.js",
+    "dec": "tsc --target ES5 --experimentalDecorators decorators.ts && node decorators.js"
+  },
+  "author": "Pradeep",
+  "license": "ISC"
+}
